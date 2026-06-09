@@ -1,0 +1,45 @@
+/* Import Outfit font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+* {
+  font-family: 'Outfit', monospace, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #f8fafc;
+}
+.section-title {
+  position: relative;
+  display: inline-block;
+}
+.section-title:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 3px;
+  background: #0d6efd;
+  border-radius: 4px;
+}
+.skill-badge {
+  background-color: #e9ecef;
+  transition: all 0.2s;
+  padding: 0.35rem 0.85rem;
+  border-radius: 2rem;
+  font-size: 0.8rem;
+}
+.skill-badge:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+.shadow-hover {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.shadow-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.08) !important;
+}
