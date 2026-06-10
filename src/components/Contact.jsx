@@ -37,7 +37,7 @@ const Contact = () => {
               <h4 className="fw-bold">Let's work together</h4>
               <p className="text-secondary">I’m open to new opportunities & collaborations. Feel free to reach out.</p>
               <div className="bg-white p-3 rounded-3 d-inline-block mx-auto"><i className="fas fa-check-circle text-success me-1"></i> Response within 24 hours.</div>
-              <div className="mt-3 text-secondary fw-light">Available for freelance / full-time roles</div>
+              <div className="mt-3 text-secondary fw-light">Available for freelance </div>
             </div>
           </Col>
         </Row>
