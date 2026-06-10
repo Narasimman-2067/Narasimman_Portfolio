@@ -13,10 +13,10 @@ const Contact = () => {
         <Row className="align-items-center g-5">
           <Col md={6}>
             <div className="d-flex flex-column gap-3">
-              <div className="d-flex align-items-center p-3 rounded-4 bg-light">
+              {/* <div className="d-flex align-items-center p-3 rounded-4 bg-light">
                 <div className="bg-primary bg-opacity-10 p-3 rounded-circle me-3"><i className="fas fa-phone text-primary fs-5"></i></div>
-                <div><p className="mb-0 fw-semibold">Phone</p><a href="tel:+919080078849" className="text-decoration-none text-secondary">+91 9080078849</a></div>
-              </div>
+               <div><p className="mb-0 fw-semibold">Phone</p><a href="tel:+919080078849" className="text-decoration-none text-secondary">+91 9080078849</a></div>
+              </div>*/}
               <div className="d-flex align-items-center p-3 rounded-4 bg-light">
                 <div className="bg-primary bg-opacity-10 p-3 rounded-circle me-3"><i className="fas fa-envelope text-primary fs-5"></i></div>
                 <div><p className="mb-0 fw-semibold">Email</p><a href="mailto:narasimman2067@gmail.com" className="text-decoration-none text-secondary">narasimman2067@gmail.com</a></div>
