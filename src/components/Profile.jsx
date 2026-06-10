@@ -23,7 +23,7 @@ const Profile = () => {
               <Button href="#projects" variant="outline-primary" className="rounded-end px-4 py-2">
                 <i className="fas fa-code-branch me-2"></i> View Projects
               </Button>
-              <Button href="/Narasimman_cv.pdf" variant="btn btn-outline-primary" className="rounded-end px-4 py-2">
+              <Button href="/Narasimman_cv.pdf" target="_blank" variant="btn btn-outline-primary" className="rounded-end px-4 py-2">
                 <i className="fas fa-download me-2"></i> Download Resume
               </Button>
             </div>
