@@ -27,7 +27,7 @@ const Contact = () => {
               </div>
               <div className="d-flex gap-3 mt-2 justify-content-center justify-content-md-start">
                 <a href="https://github.com/Narasimman-2067 " target="_blank" className="btn btn-outline-dark rounded-circle p-2" style={{width:'40px',height:'40px'}}><i className="fab fa-github"></i></a>
-                <a href="www.linkedin.com/in/narasimman-s-8777523b0" target="_blank" className="btn btn-outline-primary rounded-circle p-2" style={{width:'40px',height:'40px'}}><i className="fab fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/narasimman-s-8777523b0" target="_blank" className="btn btn-outline-primary rounded-circle p-2" style={{width:'40px',height:'40px'}}><i className="fab fa-linkedin-in"></i></a>
                 {/* <a href="#" className="btn btn-outline-info rounded-circle p-2" style={{width:'40px',height:'40px'}}><i className="fab fa-twitter"></i></a> */}
               </div>
             </div>
