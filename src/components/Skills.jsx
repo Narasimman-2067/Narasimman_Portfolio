@@ -3,7 +3,7 @@ import { Container, Row, Col, Card } from 'react-bootstrap';
 
 const Skills = () => {
   const techList = ["Java 8+", "Spring Boot", "REST API", "Spring Data JPA", "MS SQL", "Git/GitHub", "React (Basic)", "JSP", "Postman", "Agile / Scrum", "MVC Pattern", "Eclipse"];
-  const softSkills = ["Collaborative", "Adaptable", "Critical Thinking", "Empathy", "Time Management"];
+  const softSkills = ["Collaborative", "Adaptable", "Critical Thinking", "Time Management"];
 
   return (
     <section id="skills" className="py-5 bg-light">
